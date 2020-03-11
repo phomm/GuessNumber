@@ -24,10 +24,9 @@ func main() {
 }
 
 func playOnce() {
-	guess := 0
+	guess := min - 1
 	tries := 0
 	number := rand.Intn(max + 1 - min) + min
-	// #fmt.Print("number ", number)
 	fmt.Print("Guess number (", min, "..", max, "): ")		
 	for tries < maxTries && guess != number {		
 		if _, err := fmt.Scan(&guess); err != nil {				
