@@ -1,5 +1,5 @@
 # GuessNumber
-Simple game where you guess number chosen by computer. 
+Simple game where you guess number chosen by ~~computer~~ gopher ![](https://golang.org/lib/godoc/images/footer-gopher.jpg)
 
 The game process is looped until user decides to stop, each run is separate guess game where computer gives you some tries to guess the chosen number and answering if the try was winning or losing or if your number is less or more and you have some more tries
 
